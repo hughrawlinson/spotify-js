@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Hugh/.nvm/v0.10.26/bin/node',
+1 verbose cli   '/Users/Hugh/.nvm/v0.10.26/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Hugh/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+12 verbose folder .
+13 info prepublish spotify-js@0.0.1
+14 verbose unsafe-perm in lifecycle true
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/Hugh/.npm/1f1177db-tar.lock
+17 silly lockFile bb379549-63990-0-4070070870220661-tmp-tgz tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+18 verbose lock tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz /Users/Hugh/.npm/bb379549-63990-0-4070070870220661-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile bb379549-63990-0-4070070870220661-tmp-tgz tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+22 silly lockFile bb379549-63990-0-4070070870220661-tmp-tgz tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+23 verbose tar unpack /var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+24 silly lockFile 08a21468-63990-0-4070070870220661-package tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package
+25 verbose lock tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package /Users/Hugh/.npm/08a21468-63990-0-4070070870220661-package.lock
+26 silly lockFile bb379549-63990-0-4070070870220661-tmp-tgz tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+27 verbose lock tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz /Users/Hugh/.npm/bb379549-63990-0-4070070870220661-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry Makefile
+32 silly gunzTarPerm extractEntry Readme.md
+33 silly gunzTarPerm extractEntry lib/SpotifyWebApiJavascriptSDK.js
+34 silly gunzTarPerm extractEntry lib/albums.js
+35 silly gunzTarPerm extractEntry lib/artists.js
+36 silly gunzTarPerm extractEntry lib/utils.js
+37 silly gunzTarPerm extractEntry tests/albums.js
+38 silly gunzTarPerm extractEntry tests/artists.js
+39 silly gunzTarPerm extractEntry tests/mocha.opts
+40 silly gunzTarPerm extractEntry tests/support/common.js
+41 silly lockFile 08a21468-63990-0-4070070870220661-package tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package
+42 silly lockFile 08a21468-63990-0-4070070870220661-package tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package
+43 silly lockFile bb379549-63990-0-4070070870220661-tmp-tgz tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+44 silly lockFile bb379549-63990-0-4070070870220661-tmp-tgz tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/tmp.tgz
+45 verbose tar pack [ '/Users/Hugh/.npm/spotify-js/0.0.1/package.tgz',
+45 verbose tar pack   '/var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package' ]
+46 verbose tarball /Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+47 verbose folder /var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package
+48 silly lockFile 08a21468-63990-0-4070070870220661-package tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package
+49 verbose lock tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package /Users/Hugh/.npm/08a21468-63990-0-4070070870220661-package.lock
+50 silly lockFile 3c549306-npm-spotify-js-0-0-1-package-tgz tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+51 verbose lock tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz /Users/Hugh/.npm/3c549306-npm-spotify-js-0-0-1-package-tgz.lock
+52 silly lockFile 08a21468-63990-0-4070070870220661-package tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package
+53 silly lockFile 08a21468-63990-0-4070070870220661-package tar:///var/folders/vw/6mzn7jwd7jb0n0mx016lx7mc0000gn/T/npm-33091-m-oFqCgF/1403045963990-0.4070070870220661/package
+54 silly lockFile 3c549306-npm-spotify-js-0-0-1-package-tgz tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+55 silly lockFile 3c549306-npm-spotify-js-0-0-1-package-tgz tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+56 silly lockFile 91f59595-ugh-npm-spotify-js-0-0-1-package /Users/Hugh/.npm/spotify-js/0.0.1/package
+57 verbose lock /Users/Hugh/.npm/spotify-js/0.0.1/package /Users/Hugh/.npm/91f59595-ugh-npm-spotify-js-0-0-1-package.lock
+58 silly lockFile 91f59595-ugh-npm-spotify-js-0-0-1-package /Users/Hugh/.npm/spotify-js/0.0.1/package
+59 silly lockFile 91f59595-ugh-npm-spotify-js-0-0-1-package /Users/Hugh/.npm/spotify-js/0.0.1/package
+60 verbose tar unpack /Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+61 silly lockFile cc295dcf-ugh-npm-spotify-js-0-0-1-package tar:///Users/Hugh/.npm/spotify-js/0.0.1/package
+62 verbose lock tar:///Users/Hugh/.npm/spotify-js/0.0.1/package /Users/Hugh/.npm/cc295dcf-ugh-npm-spotify-js-0-0-1-package.lock
+63 silly lockFile 3c549306-npm-spotify-js-0-0-1-package-tgz tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+64 verbose lock tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz /Users/Hugh/.npm/3c549306-npm-spotify-js-0-0-1-package-tgz.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry index.js
+68 silly gunzTarPerm extractEntry Makefile
+69 silly gunzTarPerm extractEntry Readme.md
+70 silly gunzTarPerm extractEntry lib/SpotifyWebApiJavascriptSDK.js
+71 silly gunzTarPerm extractEntry lib/albums.js
+72 silly gunzTarPerm extractEntry lib/artists.js
+73 silly gunzTarPerm extractEntry lib/utils.js
+74 silly gunzTarPerm extractEntry tests/albums.js
+75 silly gunzTarPerm extractEntry tests/artists.js
+76 silly gunzTarPerm extractEntry tests/mocha.opts
+77 silly gunzTarPerm extractEntry tests/support/common.js
+78 silly lockFile cc295dcf-ugh-npm-spotify-js-0-0-1-package tar:///Users/Hugh/.npm/spotify-js/0.0.1/package
+79 silly lockFile cc295dcf-ugh-npm-spotify-js-0-0-1-package tar:///Users/Hugh/.npm/spotify-js/0.0.1/package
+80 silly lockFile 3c549306-npm-spotify-js-0-0-1-package-tgz tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+81 silly lockFile 3c549306-npm-spotify-js-0-0-1-package-tgz tar:///Users/Hugh/.npm/spotify-js/0.0.1/package.tgz
+82 verbose chmod /Users/Hugh/.npm/spotify-js/0.0.1/package.tgz 644
+83 verbose chown /Users/Hugh/.npm/spotify-js/0.0.1/package.tgz [ 501, 0 ]
+84 silly lockFile 3a52ce78- .
+85 silly lockFile 3a52ce78- .
+86 silly publish { name: 'spotify-js',
+86 silly publish   version: '0.0.1',
+86 silly publish   description: 'Spotify Web API SDK',
+86 silly publish   author: { name: 'Hugh Rawlinson', email: 'hugh@codeoclock.net' },
+86 silly publish   contributors: [ { name: 'Hugh Rawlinson', email: 'hugh@codeoclock.net' } ],
+86 silly publish   repository:
+86 silly publish    { type: 'git',
+86 silly publish      url: 'https://github.com/hughrawlinson/spotify-js' },
+86 silly publish   bugs: { url: 'https://github.com/hughrawlinson/spotify-js/issues' },
+86 silly publish   keywords: [ 'spotify', 'spotifywebapi' ],
+86 silly publish   dependencies: { request: '~2.36.0', chai: '^1.9.1', spec: '^1.0.1' },
+86 silly publish   devDependencies: { mocha: '~1.18.2', jshint: '~2.5.0' },
+86 silly publish   main: 'index',
+86 silly publish   scripts: { prepublish: 'npm prune', test: 'make test' },
+86 silly publish   engines: { node: '*' },
+86 silly publish   analyze: true,
+86 silly publish   license: 'MIT',
+86 silly publish   readme: '# Spotify Web API Javascript SDK\nThis is a quick Node SDK for the Spotify Web API. Currently only the album and artist endpoints are partially implemented. Please, feel free to contribute.\n\n## Todo\n* Implement the rest of the endpoints\n* Implement user authentication\n* Write docs representative of the SDK, rather than of the API\n\n## Usage\n```javascript\nvar s = require(\'spotifySdk\'),\n    spotify = new s();\n\nspotify.albums.find(\'0sNOF9WDwhWunNAHPD3Baj\',function(err, data){\n    if (!err) console.log(data);\n});\n```\n\n## Development\nThere are some notes regarding the API for use in development in a comment in this file. Any PRs are very welcome indeed.\n\n## Thanks\nThis SDK was inspired by @jacobwg\'s [SDK for The Echo Nest API](https://www.github.com/playlist-media/theechonest), so thanks for that :)\n\n<!-- ### Album\nEndpoint for albums\n* Endpoint: /albums\n* Functions:\n    * GET single\n        * params: id\n        * url: /{id}\n    * GET multiple\n        * params: multiple ids\n        * url: ?ids={csv ids}\n    * GET tracks\n        * params:\n            * id\n            * limit _[optional]_\n            * offset _[optional]_\n        * url: /{id}/tracks\n\n### Artist\n* Endpoint: /artists\n* Functions:\n    * GET single\n        * params: id\n        * url: /{id}\n    * GET multiple\n        * params: multiple ids\n        * url: ?ids={csv ids}\n    * GET albums\n        * params:\n            * id\n            * album\\_type _[optional]_\n            * country _[optional]_\n            * limit _[optional]_\n            * offset _[optional]_\n        * url: /{id}/albums\n    * GET top-tracks\n        * params:\n            * id\n            * country _[optional]_\n        * url: /{id}/top-tracks\n\n\n### Track\n* Endpoint:\n* Functions:\n    * GET single\n        * params: id\n        * url: /{id}\n    * GET multiple\n        * params: multiple ids\n        * url: ?ids={csv ids}\n\n### Search\n* Endpoint: /search\n* params:\n    * q\n    * type\n    * limit _[optional]_\n    * offset _[optional]_ -->\n',
+86 silly publish   readmeFilename: 'Readme.md',
+86 silly publish   homepage: 'https://github.com/hughrawlinson/spotify-js',
+86 silly publish   _id: 'spotify-js@0.0.1',
+86 silly publish   dist: { shasum: '90fab4e4394df226cf054cb89484104365a8d932' },
+86 silly publish   _from: '.' }
+87 verbose url raw spotify-js
+88 verbose url resolving [ 'https://registry.npmjs.org/', './spotify-js' ]
+89 verbose url resolved https://registry.npmjs.org/spotify-js
+90 info trying registry request attempt 1 at 23:59:24
+91 http PUT https://registry.npmjs.org/spotify-js
+92 http 403 https://registry.npmjs.org/spotify-js
+93 error publish Failed PUT 403
+94 error Error: forbidden cannot modify pre-existing version: 0.0.1
+94 error old={"name":"spotify-js","version":"0.0.1","description":"Spotify Web API SDK","author":{"name":"Hugh Rawlinson","email":"hugh@codeoclock.net"},"contributors":[{"name":"Hugh Rawlinson","email":"hugh@codeoclock.net"}],"repository":{"type":"git","url":"https://github.com/hughrawlinson/spotify-js"},"bugs":{"url":"https://github.com/hughrawlinson/spotify-js/issues"},"keywords":["spotify","spotifywebapi"],"dependencies":{"request":"~2.36.0","chai":"^1.9.1","spec":"^1.0.1"},"devDependencies":{"mocha":"~1.18.2","jshint":"~2.5.0"},"main":"index","scripts":{"prepublish":"npm prune","test":"make test"},"engines":{"node":"*"},"analyze":true,"license":"MIT","homepage":"https://github.com/hughrawlinson/spotify-js","_id":"spotify-js@0.0.1","dist":{"shasum":"de1e11176970dbb1da759f34f1599f79a263eaad","tarball":"http://registry.npmjs.org/spotify-js/-/spotify-js-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"hughrawlinson","email":"hugh@codeoclock.net"},"maintainers":[{"name":"hughrawlinson","email":"hugh@codeoclock.net"}]}
+94 error new={"name":"spotify-js","version":"0.0.1","description":"Spotify Web API SDK","author":{"name":"Hugh Rawlinson","email":"hugh@codeoclock.net"},"contributors":[{"name":"Hugh Rawlinson","email":"hugh@codeoclock.net"}],"repository":{"type":"git","url":"https://github.com/hughrawlinson/spotify-js"},"bugs":{"url":"https://github.com/hughrawlinson/spotify-js/issues"},"keywords":["spotify","spotifywebapi"],"dependencies":{"request":"~2.36.0","chai":"^1.9.1","spec":"^1.0.1"},"devDependencies":{"mocha":"~1.18.2","jshint":"~2.5.0"},"main":"index","scripts":{"prepublish":"npm prune","test":"make test"},"engines":{"node":"*"},"analyze":true,"license":"MIT","readme":"# Spotify Web API Javascript SDK\u000aThis is a quick Node SDK for the Spotify Web API. Currently only the album and artist endpoints are partially implemented. Please, feel free to contribute.\u000a\u000a## Todo\u000a* Implement the rest of the endpoints\u000a* Implement user authentication\u000a* Write docs representative of the SDK, rather than of the API\u000a\u000a## Usage\u000a```javascript\u000avar s = require('spotifySdk'),\u000a    spotify = new s();\u000a\u000aspotify.albums.find('0sNOF9WDwhWunNAHPD3Baj',function(err, data){\u000a    if (!err) console.log(data);\u000a});\u000a```\u000a\u000a## Development\u000aThere are some notes regarding the API for use in development in a comment in this file. Any PRs are very welcome indeed.\u000a\u000a## Thanks\u000aThis SDK was inspired by @jacobwg's [SDK for The Echo Nest API](https://www.github.com/playlist-media/theechonest), so thanks for that :)\u000a\u000a<!-- ### Album\u000aEndpoint for albums\u000a* Endpoint: /albums\u000a* Functions:\u000a    * GET single\u000a        * params: id\u000a        * url: /{id}\u000a    * GET multiple\u000a        * params: multiple ids\u000a        * url: ?ids={csv ids}\u000a    * GET tracks\u000a        * params:\u000a            * id\u000a            * limit _[optional]_\u000a            * offset _[optional]_\u000a        * url: /{id}/tracks\u000a\u000a### Artist\u000a* Endpoint: /artists\u000a* Functions:\u000a    * GET single\u000a        * params: id\u000a        * url: /{id}\u000a    * GET multiple\u000a        * params: multiple ids\u000a        * url: ?ids={csv ids}\u000a    * GET albums\u000a        * params:\u000a            * id\u000a            * album\\_type _[optional]_\u000a            * country _[optional]_\u000a            * limit _[optional]_\u000a            * offset _[optional]_\u000a        * url: /{id}/albums\u000a    * GET top-tracks\u000a        * params:\u000a            * id\u000a            * country _[optional]_\u000a        * url: /{id}/top-tracks\u000a\u000a\u000a### Track\u000a* Endpoint:\u000a* Functions:\u000a    * GET single\u000a        * params: id\u000a        * url: /{id}\u000a    * GET multiple\u000a        * params: multiple ids\u000a        * url: ?ids={csv ids}\u000a\u000a### Search\u000a* Endpoint: /search\u000a* params:\u000a    * q\u000a    * type\u000a    * limit _[optional]_\u000a    * offset _[optional]_ -->\u000a","readmeFilename":"Readme.md","homepage":"https://github.com/hughrawlinson/spotify-js","_id":"spotify-js@0.0.1","dist":{"shasum":"90fab4e4394df226cf054cb89484104365a8d932","tarball":"http://registry.npmjs.org/spotify-js/-/spotify-js-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"hughrawlinson","email":"hugh@codeoclock.net"},"maintainers":[{"name":"hughrawlinson","email":"hugh@codeoclock.net"}]}: spotify-js
+94 error     at RegClient.<anonymous> (/Users/Hugh/.nvm/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+94 error     at Request.self.callback (/Users/Hugh/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+94 error     at Request.EventEmitter.emit (events.js:98:17)
+94 error     at Request.<anonymous> (/Users/Hugh/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+94 error     at Request.EventEmitter.emit (events.js:117:20)
+94 error     at IncomingMessage.<anonymous> (/Users/Hugh/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+94 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+94 error     at _stream_readable.js:920:16
+94 error     at process._tickCallback (node.js:415:13)
+95 error If you need help, you may report this *entire* log,
+95 error including the npm and node versions, at:
+95 error     <http://github.com/npm/npm/issues>
+96 error System Darwin 13.2.0
+97 error command "/Users/Hugh/.nvm/v0.10.26/bin/node" "/Users/Hugh/.nvm/v0.10.26/bin/npm" "publish"
+98 error cwd /Users/Hugh/Documents/Software Development/SpotifyWebApiJavascriptSdk
+99 error node -v v0.10.26
+100 error npm -v 1.4.3
+101 verbose exit [ 1, true ]

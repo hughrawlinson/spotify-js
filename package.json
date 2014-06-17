@@ -1,6 +1,6 @@
 {
   "name": "spotify-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Spotify Web API SDK",
   "author": "Hugh Rawlinson <hugh@codeoclock.net>",
   "contributors": [
