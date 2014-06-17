@@ -68,21 +68,17 @@ describe('Multiple Artists', function() {
     });
 });
 
-describe('Artist Tracks', function() {
+describe('Artist Albums', function() {
     it('should return a track listing', function(done) {
-        spotify.artists.find(artistID, function(err, data) {
+        spotify.artists.albums(artistID, function(err, data) {
             should.not.exist(err);
             should.exist(data);
-            var artist = data;
+            var albums = data;
 
-            artist.should.be.an('object');
+            albums.should.be.an('object');
 
-            artist.should.have.property('id');
-            artist.id.should.equal(artistID);
-
-            artist.should.have.property('tracks');
-            artist.should.have.property('name');
-            artist.tracks.total.should.equal(artist.tracks.items.length);
+            albums.should.have.property('items');
+            albums.should.have.property('total');
 
             done();
         });
