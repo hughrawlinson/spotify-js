@@ -1,0 +1,42 @@
+{
+  "name": "spotify",
+  "version": "0.0.1",
+  "description": "Spotify Web API SDK",
+  "author": "Hugh Rawlinson <hugh@codeoclock.net>",
+  "contributors": [
+    {
+      "name": "Hugh Rawlinson",
+      "email": "hugh@codeoclock.net"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hughrawlinson/spotify-js"
+  },
+  "bugs": {
+    "url": "https://github.com/hughrawlinson/spotify-js/issues"
+  },
+  "keywords": [
+    "spotify",
+    "spotifywebapi"
+  ],
+  "dependencies": {
+    "request": "~2.36.0",
+    "chai": "^1.9.1",
+    "spec": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "jshint": "~2.5.0"
+  },
+  "main": "index",
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make test"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "analyze": true,
+  "license": "MIT"
+}
