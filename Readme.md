@@ -1,23 +1,28 @@
 # Spotify Web API Javascript SDK
-This is a quick Node SDK for the Spotify Web API. Currently only the endpoints that don't require authentication are implemented. Please, feel free to contribute.
+This is a quick Node SDK for the Spotify Web API. Currently only the album and artist endpoints are partially implemented. Please, feel free to contribute.
 
 ## Todo
+* Implement the rest of the endpoints
 * Implement user authentication
-* Write better docs representative of the API
+* Write docs representative of the SDK, rather than of the API
 
 ## Usage
 ```javascript
-var spotify = require('spotifySdk');
+var s = require('spotifySdk'),
+    spotify = new s();
 
-var album = spotify.albums('0sNOF9WDwhWunNAHPD3Baj');
-console.log(album.name); // "She's So Unusual"
-console.log(album.artists[0].name); // "Cyndi Lauper"
+spotify.albums.find('0sNOF9WDwhWunNAHPD3Baj',function(err, data){
+    if (!err) console.log(data);
+});
 ```
 
-## Docs
-These are the implemented endpoints, and the documentation for the raw API corresponding to each one.
+## Development
+There are some notes regarding the API for use in development in a comment in this file. Any PRs are very welcome indeed.
 
-### Album
+## Thanks
+This SDK was inspired by @jacobwg's [SDK for The Echo Nest API](https://www.github.com/playlist-media/theechonest), so thanks for that :)
+
+<!-- ### Album
 Endpoint for albums
 * Endpoint: /albums
 * Functions:
@@ -74,4 +79,4 @@ Endpoint for albums
     * q
     * type
     * limit _[optional]_
-    * offset _[optional]_
+    * offset _[optional]_ -->
