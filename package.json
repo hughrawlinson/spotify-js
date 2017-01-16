@@ -21,13 +21,13 @@
     "spotifywebapi"
   ],
   "dependencies": {
-    "request": "~2.36.0",
-    "chai": "^1.9.1",
+    "request": "~2.79.0",
+    "chai": "^3.5.0",
     "spec": "^1.0.1"
   },
   "devDependencies": {
-    "mocha": "~1.18.2",
-    "jshint": "~2.5.0"
+    "mocha": "~3.2.0",
+    "jshint": "~2.9.4"
   },
   "main": "index",
   "scripts": {
