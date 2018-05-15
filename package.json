@@ -21,7 +21,7 @@
     "spotifywebapi"
   ],
   "dependencies": {
-    "request": "~2.79.0",
+    "request": "~2.86.0",
     "chai": "^3.5.0",
     "spec": "^1.0.1"
   },
