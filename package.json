@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "request": "~2.79.0",
-    "chai": "^3.5.0",
+    "chai": "^4.0.1",
     "spec": "^1.0.1"
   },
   "devDependencies": {
